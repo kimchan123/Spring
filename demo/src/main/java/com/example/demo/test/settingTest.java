@@ -20,7 +20,7 @@ public class settingTest {
 	 private StatisticService service;
 	    
 	    @ResponseBody 
-	    @RequestMapping("/sqlyearStatistic")
+	    @RequestMapping("/login")
 	    public Map<String, Object> sqltest(String year) throws Exception{ 
 	        
 	        return service.yearLoginCount(year);
