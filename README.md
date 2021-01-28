@@ -17,3 +17,10 @@
 1. 스프링부트 설정하기
 2. DB, TABLE 생성
 3. 20년도 로그인 수 API 구현
+
+# - REST API
+REST API 설계 시 가장 중요한 항목은 다음의 2가지로 요약할 수 있습니다.
+
+첫 번째, URI는 정보의 자원을 표현해야 한다.
+두 번째, 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
+
